@@ -1,1 +1,1 @@
-# Android-Summer-Bootcamp---Connect-to-the-Internet
+# Android Summer Bootcamp - Connect to the Internet
