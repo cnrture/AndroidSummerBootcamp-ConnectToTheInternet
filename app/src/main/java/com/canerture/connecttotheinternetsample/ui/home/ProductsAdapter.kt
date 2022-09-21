@@ -22,7 +22,10 @@ class ProductsAdapter :
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) =
         holder.bind(currentList[position])
 
-    class ProductViewHolder(private val binding: ItemProductBinding, private val onProductClick: (Product) -> Unit) :
+    class ProductViewHolder(
+        private val binding: ItemProductBinding,
+        private val onProductClick: (Product) -> Unit
+    ) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(product: Product) {

@@ -1,10 +1,9 @@
 package com.canerture.connecttotheinternetsample
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.canerture.connecttotheinternetsample.common.viewBinding
 import com.canerture.connecttotheinternetsample.databinding.ActivityMainBinding
-import com.canerture.connecttotheinternetsample.databinding.FragmentHomeBinding
 
 class MainActivity : AppCompatActivity() {
 
